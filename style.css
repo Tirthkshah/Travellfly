@@ -10,7 +10,7 @@ body {
 .container { width: 90%; max-width: 900px; margin: 0 auto; padding: 16px; }
 
 .site-header { background: MediumSlateBlue; color: White; padding: 16px 0; }
-.site-header.small { padding-bottom: 10px; }                /* small header extra space */
+.site-header.small { padding-bottom: 10px; }               
 .site-footer { background: MediumSlateBlue; color: White; padding: 12px 0; font-size: 18px; }
 .footer-inner { width: 90%; max-width: 900px; margin: 0 auto; padding: 6px 16px; }
 
