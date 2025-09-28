@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - TravelIfly</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header small">
+    <nav class="nav container">
+      <a class="logo" href="index.html">TravelIfly</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact</h1>
+    <p>If you have questions or want tips, drop a message.</p>
+
+    <div class="contact-grid">
+<form type="post">
+  <label for="name">Name</label>
+  <input id="name" type="text" name="name" required>
+
+  <label for="email">Email</label>
+  <input id="email" type="email" name="email" required>
+
+  <label for="mobile">Mobile Number</label>
+  <input id="mobile" type="tel" name="mobile" placeholder="+91 98765 43210" pattern="[\+0-9\s\-]{7,20}" required>
+
+  <label for="gender">Gender</label>
+  <select id="gender" name="gender" required>
+    <option value="">Select</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select>
+
+  <label for="country">Country</label>
+  <select id="country" name="country" required>
+    <option value="">Select country</option>
+    <option>India</option>
+    <option>USA</option>
+    <option>United Kingdom</option>
+    <option>Other</option>
+  </select>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" placeholder="Write a message..." required></textarea>
+
+  <input type="submit" value="Send Message">
+</form>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 TravelIfly</p>
+    </div>
+  </footer>
+</body>
+</html>
